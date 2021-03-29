@@ -27,7 +27,7 @@ const images = [
   const ulGallery = document.querySelector('#gallery')
 
   let gallery = images.map(image => {
-    ulGallery.insertAdjacentHTML('afterbegin', `<li><img src=${image.url} alt=${image.alt}></li>`);
+    ulGallery.insertAdjacentHTML('beforeend', `<li><img src=${image.url} alt=${image.alt}></li>`);
     return ulGallery;
   })
 
