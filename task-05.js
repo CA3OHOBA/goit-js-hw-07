@@ -5,13 +5,13 @@
 
 const input = document.querySelector('input');
 const output = document.querySelector('#name-output');
+const anonymous = 'прекрасный незнакомец!';
+output.textContent = anonymous;
 
-
-const newInput = (word) => {
-  const result = word.target.value.length > 0 ?
-   output.textContent = word.target.value :
-   output.textContent = 'незнакомец';
-  
+const newInput = (event) => {
+  const result = event.target.value.length > 0 ?
+   output.textContent = event.target.value :
+   output.textContent = anonymous;
 }
 
 
