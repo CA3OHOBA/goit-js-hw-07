@@ -11,3 +11,8 @@ img {
     width: 400px;
     padding-left: 10px;
 }
+
+/* Задание 5 */
+input[type="text"]{
+    margin-top: 15px;
+}
