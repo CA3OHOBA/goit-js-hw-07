@@ -1,0 +1,12 @@
+/* Задание 3 */
+#gallery{
+    display: flex; 
+    align-items: center;
+    list-style: none;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+    margin-left: 10px;
+}
